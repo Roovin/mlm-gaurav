@@ -1,0 +1,562 @@
+#settings-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+}
+
+#settings-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:50px;
+}
+
+#settings-task
+{
+	width:800px;
+	height:210px;
+	margin-top:60px;
+}
+
+.settings-task
+{
+	width:200px;
+	height:200px;
+	background-color:#bcbfc6;
+	float:left;
+	margin-left:100px;
+	box-shadow:5px 5px 5px grey;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+.settings-task:hover
+{
+	background-color:#2a3b4f;
+	color:#bcbfc6;
+}
+
+.settings-task-icon
+{
+	width:100%;
+	height:100px;
+	font-size:100px;
+	padding-top:30px;
+	
+}
+
+.settings-task-text
+{
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:20px;
+}
+
+/** Marketing Plan Starts**/
+.mp-container
+{
+	width:1233px;
+	overflow:hidden;
+	margin-left:110px;
+	display:none;
+}
+
+.mp-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+}
+
+.both-cover
+{
+	width:1100px;
+	margin-top:20px;
+	overflow:hidden;
+}
+
+.cmp
+{
+	width:500px;
+	float:left;
+	overflow:hidden;
+	text-align:left;
+}
+
+.date-text
+{
+	float:left;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:4px;
+}
+
+.cmp-heading
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+}
+
+.cmp-date-box
+{
+	width:500px;
+	height:30px;
+	margin-top:10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+}
+
+.date-fields
+{
+	float:left;
+	width:120px;
+	margin-left:10px;
+	height:30px;
+}
+
+
+.slab-line-cover
+{
+	width:400px;
+	height:30px;
+	margin-top:10px;
+}
+
+.slab-val
+{
+	width:165px;
+	height:30px;
+	float:left;
+}
+
+.button-box
+{
+	width:400px;
+	height:30px;
+	margin-top:20px;
+}
+
+.slab-btn
+{
+	width:50px;
+	height:30px;
+	color:white;
+	background-color:#2a3b4f;
+	box-shadow:2px 2px 2px grey;
+	text-align:center;
+	float:right;
+	margin-left:10px;
+	font-size:20px;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+.slab-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+.end-btn-cover
+{
+	width:400px;
+	height:30px;
+	margin-top:50px;
+	padding-bottom:10px;
+}
+
+.end-btn
+{
+	width:130px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	background-color:#2a3b4f;
+	float:right;
+	box-shadow:2px 2px 2px grey;
+	font-size:15px;
+	font-family:Montserrat , sans-serif;
+	text-align:center;
+	cursor:pointer;
+	margin-right:10px;
+}
+
+.end-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+#submit-plan
+{
+	width:200px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	text-align:center;
+	background-color:#2a3b4f;
+	font-family:calibri;
+	font-size:15px;
+	font-family:Montserrat , sans-serif;
+	cursor:pointer;
+	float:right;
+	margin-right:110px;
+	box-shadow:2px 2px 2px grey;
+}
+
+#submit-plan:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+
+.cpdate-cover
+{
+	width:250px;
+	height:30px;
+	margin-top:10px;
+}
+
+.cpdate-text
+{
+	font-family:Montserrat , sans-serif;
+	font-size:15px;
+	float:left;
+}
+
+
+.cp-rows
+{
+	width:400px;
+	height:20px;
+	margin-top:5px;
+}
+
+.cp-cell
+{
+	float:left;
+	font-family:Montserrat , sans-serif;
+	text-align:center;
+}
+
+.back_btn
+{
+	width:100px;
+	height:25px;
+	background-color:#2a3b4f;
+	color:white;
+	text-align:center;
+	font-family:calibri;
+	margin-top:100px;
+	padding-top:5px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	margin-left:30px;
+}
+
+.back_btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+/** Marketing Plan Ends**/
+
+/** Coupon Settings**/
+
+.cs-container
+{
+	width:1233px;
+	overflow:hidden;
+	margin-left:110px;
+	padding-bottom:20px;
+}
+
+.cs-heading
+{
+	font-family:Montserrat,sans-serif;
+	font-size:25px;
+}
+
+.cs-box
+{
+	width:500px;
+	height:300px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	border-radius:5px;
+	box-shadow:2px 2px 2px grey;
+	color:white;
+}
+
+.csbox-heading
+{
+	font-family:Montserrat,sans-serif;
+	font-size:20px;
+}
+
+.csfield-container
+{
+	width:450px;
+	height:35px;
+	margin-top:50px;
+}
+
+.csfield
+{
+	width:60px;
+	height:100%;
+	float:left;
+	border-radius:0px 5px 5px 0px;
+	border-left:0px;
+	color:#4C4C4C;
+}
+
+.cs-label
+{
+	width:15px;
+	text-align:center;
+	height:70%;
+	background-color:white;
+	float:left;
+	padding-top:10px;
+	font-family:Montserrat, sans-serif;
+	font-size:14px;
+	border-radius:5px 0px 0px 5px;
+	box-shadow:inset 2px 2px 0px #9A9A9A;
+	color:#2a3b4f;
+	padding-left:5px;
+}
+
+.cs-onoff
+{
+	height:100%;
+	width:80px;
+	background-color:white;
+	float:left;
+	margin-left:50px;
+	border-radius:5px;
+	overflow:hidden;
+	box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+}
+
+.on-btn
+{
+	float:left;
+	width:49%;
+	border-right:1px solid black;
+	height:100%;
+	padding-top:7px;
+	font-family:Montserrat,sans-serif;
+	font-size:13px;
+	box-shadow:inset 0px 0px 8px rgba(0,0,0,.5);
+	cursor:pointer;
+}
+
+.off-btn
+{
+	float:left;
+	width:49.5%;
+	padding-top:7px;
+	font-family:Montserrat,sans-serif;
+	font-size:13px;
+	height:100%;
+	box-shadow:inset 0px 0px 8px rgba(0,0,0,.5);
+	cursor:pointer;
+}
+
+.csupdate-btn
+{
+	width:150px;
+	height:25px;
+	text-align:center;
+	color:#DEDCDC;
+	background-color:rgb(42, 59, 79);
+	box-shadow:2px 2px 2px grey;
+	padding-top:5px;
+	cursor:pointer;
+	margin-top:50px;
+	font-family:Montserrat,sans-serif;
+	border-radius:5px;
+	font-size:13px;
+}
+
+.csupdate-btn:hover
+{
+	box-shadow:1px 1px 1px grey;
+	color:white;
+}
+
+.csfield-internal
+{
+	float:left;
+	font-family:Montserrat,sans-serif;
+	font-size:12px;
+	font-weight:400;
+}
+
+.cstable-cover
+{
+	width:450px;
+	height:150px;
+	background-color:white;
+	margin-top:20px;
+	border-radius:20px;
+	
+	overflow:hidden;
+}
+
+.cstable-inside
+{
+	width:450px;
+	height:150px;
+	background-color:white;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	box-shadow:inset 5px 5px 5px grey;
+	border-radius:20px;
+}
+
+
+.head-row
+{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid grey;
+	box-shadow:2px 2px 2px grey;
+}
+
+.cscells
+{
+	height:20px;
+	padding-top:10px;
+	font-family:Montserrat,sans-serif;
+	font-size:12px;
+	text-align:center;
+	border-right:1px solid grey;
+	float:left;
+	color:grey;
+}
+
+.addc-btn
+{
+	width:130px;
+	height:30px;
+	background-color:white;
+	margin-top:15px;
+	border-radius:5px;
+	overflow:hidden;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+.addc-btn:hover
+{
+	box-shadow:1px 1px 1px grey;
+}
+
+
+.addcbtn-icon
+{
+	float:left;
+	width:30px;
+	text-align:Center;
+	height:100%;
+	color:black;
+	font-family:Montserrat,sans-serif;
+	font-size:23px;
+}
+
+.addcbtn-text
+{
+	float:left;
+	width:100px;
+	text-align:Center;
+	height:25px;
+	font-family:Montserrat,sans-serif;
+	font-size:12px;
+	background-color:#2a3b4f;
+	padding-top:5px;
+	color:#CECECE;
+}
+
+.addcbtn-text:hover
+{
+	color:white;
+}
+
+.nc-heading
+{
+	color:#2a3b4f;
+	font-family:Montserrat,sans-serif;
+	margin-top:20px;
+}
+
+.nc-field-con
+{
+	width:400px;
+	height:30px;
+	margin-top:20px;
+}
+
+.nc-fields
+{
+	height:25px;width:100px;float:left;
+	margin-left:20px;
+	border-radius:5px;
+	padding-left:5px;
+}
+
+.nc-btn
+{
+	width:100px;
+	height:20px;
+	padding-top:5px;
+	color:#CECECE;
+	background-color:#2a3b4f;
+	float:left;
+	margin-left:20px;
+	font-family:Montserrat,sans-serif;
+	cursor:pointer;
+	border-radius:5px;
+	box-shadow:2px 2px 2px grey;
+	font-size:13px;
+}
+
+.nc-btn:hover
+{
+	box-shadow:1px 1px 1px grey;
+	color:white;
+}
+
+.ac-update-btn
+{
+	width:40px;
+	height:12px;
+	background-color:#2a3b4f;
+	font-size:8px;
+	margin-left:7px;
+	padding-top:3px;
+	color:#CECECE;
+	box-shadow:2px 2px 2px grey;
+}
+
+.ac-update-btn:hover{
+	color:white;
+	cursor:pointer;
+	box-shadow:1px 1px 1px grey;
+}
+
+.table-fields
+{
+	width:100%;
+	height:100%;
+	border:0px;
+	text-align:center;
+}
+
+
+.delac:hover{
+	color:red;
+	cursor:pointer;
+}
+
+/** Coupon Settings Ends**/

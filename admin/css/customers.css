@@ -1,0 +1,563 @@
+#stores-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+}
+
+#stores-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:50px;
+}
+
+#stores-task
+{
+	width:800px;
+	margin-top:60px;
+	overflow:hidden;
+	padding-bottom:20px;
+	padding-right:10px;
+}
+
+.stores-task
+{
+	width:200px;
+	height:200px;
+	background-color:#bcbfc6;
+	float:left;
+	margin-left:100px;
+	box-shadow:5px 5px 5px grey;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+.stores-task:hover
+{
+	background-color:#2a3b4f;
+	color:#bcbfc6;
+}
+
+.stores-task-icon
+{
+	width:100%;
+	height:100px;
+	font-size:100px;
+	padding-top:30px;
+	
+}
+
+.stores-task-text
+{
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:20px;
+}
+
+
+/*customer Application*/
+.custapp_container
+{
+	width:1233px;
+	height:500px;
+	margin-left:110px;
+	display:none;
+	padding-top:100px;
+}
+
+.custapp_heading
+{
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:30px;
+}
+
+.custapp_table
+{
+	width:900px;
+	border:1px solid black;
+	margin-top:30px;
+	border-bottom:0px;
+}
+
+.custapp_row
+{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid black;
+	overflow:hidden;
+}
+
+.custapp_cell
+{
+	float:left;
+	border-right:1px solid black;
+	padding-top:5px;
+	height:25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.custapp_application
+{
+	width:680px;
+	background-color:rgba(255,255,255,0.95);
+	position:absolute;
+	margin-left:200px;
+	padding-bottom:20px;
+	display:none;
+}
+
+.custapp_box
+{
+	width:650px;
+	border:1px solid black;
+	margin-top:20px;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+
+
+.ap-button
+{
+	
+	height:30px;
+	background-color:#2a3b4f;
+	margin-top:10px;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:10px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:20px;
+}
+
+.ap-button:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+.custapp_label
+{
+	font-family:calibri;
+	text-align:left;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+.custapp_inputbox
+{
+	float:left;
+	padding-left:10px;
+	font-family:calibri;
+	text-align:left;
+	margin-top:20px;
+}
+
+.input_class
+{
+	margin-top:5px;
+	width:200px;
+	height:30px;
+	
+}
+
+.doclink
+{
+	color:blue;
+	cursor:pointer;
+}
+
+.doc-loader
+{
+	position:absolute;
+	width:500px;
+	background-color:#cdcdcf;
+	margin-top:720px;
+	height:250px;
+	margin-left:100px;
+	box-shadow:2px 2px 2px grey;
+	display:none;
+}
+
+
+.doc-top
+{
+	width:100%;
+	height:20px;
+}
+
+.close-btn
+{
+	
+	color:white;
+	background-color:red;
+	border-radius:100%;
+	font-family:calibri;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	float:right;
+	margin-right:10px;
+}
+
+#doc-space
+{
+	width:430px;
+	height:220px;
+	
+}
+
+.search-btn
+{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:#2a3b4f;
+	text-align:center;
+	font-family:calibri;
+	padding-top:8px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	float:left;
+}
+
+.search-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+.back-btn
+{
+	width:100px;
+	height:30px;
+	text-align:center;
+	background-color:#2a3b4f;
+	color:white;
+	padding-top:10px;
+	box-shadow:2px 2px 2px grey;
+	margin-left:20px;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.back-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+/*customer Application*/
+
+
+
+/* Add Customer**/
+.custadd_container
+{
+	width:1233px;
+	height:500px;
+	margin-left:110px;
+	padding-top:100px;
+	display:none;
+}
+
+#addcus-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	margin-top:20px;
+}
+
+.input-box
+{
+	width:600px;
+	border:1px solid black;
+	overflow:hidden;
+	margin-top:20px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:35px;
+}
+
+.input-box-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align:left;
+}
+
+.input-cover
+{
+	font-family: 'Montserrat', sans-serif;
+	width:180px;
+	height:30px;
+	float:left;
+	margin-top:20px;
+	font-size:13px;
+	text-align:left;
+}
+
+.input-fields
+{
+	width:100%;
+	height:100%;
+	margin-top:5px;
+}
+
+.send_btn
+{
+	width:200px;
+	height:30px;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	background-color:#2a3b4f;
+	margin-top:20px;
+	padding-top:10px;
+	box-shadow:2px 3px 3px grey;
+	cursor:pointer;
+	}
+	
+.send_btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}	
+
+
+.loader-cover
+{
+	position:absolute;
+	width:50%;
+	height:1100px;
+	background-color:rgba(255,255,255,0.9);
+	margin-left:21%;
+	display:none;
+	
+}
+
+/* Add Customer**/
+
+
+/** Fund transfer Report**/
+.ftr-container
+{
+	width:1233px;
+	margin-left:110px;
+	overflow:hidden;
+	font-family:Montserrat,sans-serif;
+	display:none;
+}
+
+.ftr-heading
+{
+	font-size:22px;
+}
+
+.ftr-filter
+{
+	width:800px;
+	height:30px;
+	margin-top:10px;
+}
+
+.ftr-submit
+{
+	width:100px;
+	height:30px;
+	background-color:#2a3b4f;
+	border:0px;
+	color:white;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+.ftr-submit:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+.ftr-fields
+{
+	width:200px;
+	height:30px;
+}
+
+.ftr-table
+{
+	border:1px solid black;
+	border-bottom:0px;
+	overflow:hidden;
+	margin-top:20px;
+	width:900px;
+}
+
+.ftr-row
+{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid black;
+}
+
+.ftr-col
+{
+	height:25px;
+	padding-top:5px;
+	font-size:14px;
+	border-right:1px solid black;
+	float:left;
+}
+
+#ftr-out
+{
+	font-size:12px;
+}
+
+.ftr-btn
+{
+	width:100px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	text-align:center;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	background-color:#2a3b4f;
+	margin-top:80px;
+	margin-left:10px;
+}
+
+.ftr-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+/** Fund transfer Report**/
+/** Profit Calculation**/
+.pc-container
+{
+	width:1233px;
+	overflow:hidden;
+	margin-left:110px;
+	font-family:Montserrat, sans-serif;
+	display:none;
+}
+
+.pc-heading
+{
+	font-size:25px;
+}
+
+.pc-box
+{
+	width:700px;
+	height:30px;
+	margin-top:10px;
+}
+
+.pc-field
+{
+	height:30px;
+	width:150px;
+}
+
+.pc-output
+{
+	width:400px;
+	height:100px;
+	border:1px solid black;
+	margin-top:30px;
+}
+
+.pc-btn
+{
+	width:100px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	text-align:center;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	background-color:#2a3b4f;
+	margin-left:10px;
+}
+
+.pc-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+/** Profit Calculation**/
+
+
+/** profit Transfer**/
+.pt-container
+{
+	width:1233px;
+	margin-left:110px;
+	overflow:hidden;
+	display:none;
+}
+
+.pt-heading
+{
+	font-family:Montserrat,sans-serif;
+	font-size:22px;
+}
+
+.pt-fields
+{
+	width:150px;
+	height:30px;
+}
+
+.t-container
+{
+	width:800px;
+	height:80px;
+	border:1px solid black;
+	overflow-x:Auto;
+	margin-top:20px;
+}
+
+.t-row
+{
+	width:2500px;
+	height:30px;
+	border-bottom:1px solid black;
+}
+
+.t-cell
+{
+	height:25px;
+	padding-top:5px;
+	border-right:1px solid black;
+	font-family:Montserrat, sans-serif;
+	font-size:13px;
+	float:left;
+}
+
+.pt-btn
+{
+	width:200px;
+	height:25px;
+	padding-top:5px;
+	font-family:Montserrat, sans-serif;
+	text-align:center;
+	cursor:pointer;
+	background-color:#2a3b4f;
+	box-shadow:2px 2px 2px grey;
+	color:white;
+	margin-top:20px;
+	border:0px;
+	font-size:14px;
+}
+
+
+.pt-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+/** Profit Transfer**/

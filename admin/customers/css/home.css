@@ -1,0 +1,103 @@
+#net-map
+{
+	width:1200px;
+	padding-top:100px;
+	margin-left:150px;
+	overflow-y:hidden;
+	overflow-x:auto;
+}
+
+.user-icon
+{
+	font-size:20px;
+}
+
+.stick
+{
+	width:2px;
+	height:10px;
+	background-color:black;
+}
+
+#first-box
+{
+	width:600px;
+	height:30px;
+}
+
+.inner-box
+{
+	float:left;
+	width:298px;
+	height:28px;
+}
+
+.custid_space
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:10px;
+}
+
+#second-box
+{
+	width:900px;
+	height:30px;
+}
+
+#third-box
+{
+	width:1100px;
+	height:30px;
+}
+
+.cid
+{
+	float:left;
+	height:30px;
+	width:110px;
+	text-align:center;
+	padding-top:5px;
+}
+
+/* #back_btn
+{
+	width:150px;
+	height:30px;
+	background-color:#2a3b4f;
+	color:white;
+	padding-top:10px;
+	font-family:'Montserrat', sans-serif;
+	cursor:pointer;
+	box-shadow:2px 2px 2px grey;
+} */
+
+#back_btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+
+#demographics
+{
+	width:900px;
+	height:200px;
+	border:1px solid black;
+	margin-top:20px;
+	margin-left: 230px;
+}
+
+.inner
+{
+	width:299px;
+	float:left;
+	height:150px;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	margin-top:10px;
+}
+
+#head
+{
+	font-family:calibri;
+	font-size:25px;
+}

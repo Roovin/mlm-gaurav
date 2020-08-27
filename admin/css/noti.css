@@ -1,0 +1,150 @@
+#noti-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+}
+
+#noti-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:50px;
+}
+
+#noti-task
+{
+	width:800px;
+	height:210px;
+	margin-top:60px;
+}
+
+.noti-task
+{
+	width:200px;
+	height:200px;
+	background-color:#bcbfc6;
+	float:left;
+	margin-left:100px;
+	box-shadow:5px 5px 5px grey;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+.noti-task:hover
+{
+	background-color:#2a3b4f;
+	color:#bcbfc6;
+}
+
+.noti-task-icon
+{
+	width:100%;
+	height:100px;
+	font-size:100px;
+	padding-top:30px;
+	
+}
+
+.noti-task-text
+{
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:20px;
+}
+
+/** ftr Starts**/
+.ftr-container
+{
+	width:1233px;
+	overflow:hidden;
+	margin-left:110px;
+	display:none;
+}
+
+.ftr-heading
+{
+	font-family:Montserrat, sans-serif;
+	font-size:20px;
+}
+
+.noti-box
+{
+	width:650px;
+	height:150px;
+	margin-top:20px;
+	background-color:#DEDEDE;
+	box-shadow:2px 2px 2px grey;
+	overflow:hidden;
+}
+
+.noti-info
+{
+	width:324.5px;
+	height:115px;
+	float:left;
+}
+
+.noti-name
+{
+	text-align:left;
+	font-size:18px;
+	font-family: 'Chango', cursive;
+	margin-top:5px;
+	margin-left:5px;
+	color:#2a3b4f;
+}
+
+.noti-details
+{
+	color:#666666;
+	text-align:left;
+	font-family:Montserrat, sans-serif;
+	margin-top:5px;
+	margin-left:5px;
+	font-size:13px;
+}
+
+.noti-btn
+{
+	width:150px;
+	height:25px;
+	padding-top:5px;
+	box-shadow:2px 2px 2px grey;
+	color:white;
+	text-align:center;
+	cursor:pointer;
+	background-color:#2a3b4f;
+	float:right;
+	margin-right:12px;
+	font-family:Montserrat, sans-serif;
+}
+
+.noti-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+
+.ftr-back
+{
+	width:100px;
+	height:25px;
+	padding-top:5px;
+	text-align:center;
+	color:white;
+	background-color:#2a3b4f;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	font-family:Montserrat, sans-serif;
+	margin-top:80px;
+	margin-left:10px;
+}
+
+.ftr-back:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+/** ftr Ends**/

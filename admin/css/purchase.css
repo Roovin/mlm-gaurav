@@ -1,0 +1,1086 @@
+#purchase-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+}
+
+#purchase-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:50px;
+}
+
+#purchase-task
+{
+	width:800px;
+	height:210px;
+	margin-top:60px;
+}
+
+.purchase-task
+{
+	width:200px;
+	height:200px;
+	background-color:#bcbfc6;
+	float:left;
+	margin-left:100px;
+	box-shadow:5px 5px 5px grey;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+.purchase-task:hover
+{
+	background-color:#2a3b4f;
+	color:#bcbfc6;
+}
+
+.purchase-task-icon
+{
+	width:100%;
+	height:100px;
+	font-size:100px;
+	padding-top:30px;
+	
+}
+
+.purchase-task-text
+{
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:20px;
+}
+
+/** Purchase Entry**/
+#purchase-entry-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+	display:none;
+}
+
+#purchase-entry-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:20px;
+}
+
+#billing-info
+{
+	width:700px;
+	height:130px;
+	border:1px solid grey;
+	margin-top:20px;
+	padding:5px;
+}
+.section-name
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	float:left;
+}
+
+.fields
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	width:200px;
+	height:50px;
+	float:left;
+	margin-top:10px;
+	text-align:left;
+	margin-left:10px;
+}
+
+.purchase-entry-fields
+{
+	width:100%;
+	height:30px;
+	margin-top:5px;
+	
+}
+
+.products
+{
+	width:840px;
+	height:600px;
+	border:1px solid grey;
+	padding:5px;
+	margin-top:30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.item-number
+{
+	width:200px;
+	height:50px;
+	border:1px solid grey;
+	padding-top:10px;
+	margin-top:-25px;
+	background-color:#cdcdcf;
+}
+
+.add-pro-btn
+{
+	width:50px;
+	height:50px;
+	background-color:#2a3b4f;
+	border-radius:100%;
+	margin-top:20px;
+	color:white;
+	font-size:30px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+.add-pro-btn:hover
+{
+	background-color:#72757b;
+}
+
+#load-more-loader
+{
+	display:none;
+}
+
+#purchase-submit
+{
+	width:130px;
+	height:35px;
+	background-color:#2a3b4f;
+	color:white;
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+	padding-top:12px;
+	box-shadow:5px 5px 5px grey;
+	cursor:pointer;
+}
+
+#purchase-submit:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+#bill-cover
+{
+	width:1233px;
+	height:140%;
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	display:none;
+}
+
+#bill
+{
+	width:830px;
+	background-color:white;
+	margin-top:30px;
+	padding-top:20px;
+	padding-bottom:10px;
+	overflow:hidden;	
+}
+
+#bill-mfd-name
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+}
+
+#bill-info
+{
+	width:100%;
+	height:30px;
+	margin-top:40px;
+	padding-top:10px;
+}
+
+#bill-info2
+{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	padding-top:10px;
+}
+
+.bill-info
+{
+	width:50%;
+	height:100%;
+	float:left;
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+}
+
+#bill-details
+{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	overflow:hidden;
+}
+
+.bill-details
+{
+	width:100%;
+	height:50px;
+	border-bottom:1px solid black;
+	overflow:hidden;
+}
+
+.bsno
+{
+	width:50px;
+	height:100%;
+	border-right:1px solid black;
+	float:left;
+	padding-top:5px;
+	font-family:'Montserrat', sans-serif;
+	font-size:11px;
+}
+
+.bill-btn
+{
+	display:inline;
+	background-color:#2a3b4f;
+	color:white;
+	font-family:'Montserrat', sans-serif;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	margin-top:40px;
+	font-size:13px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+.bill-btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+.bill-loader
+{
+	width:830px;
+	height:400px;
+	background-color:white;
+	position:absolute;
+	margin-left:200px;
+	display:none;
+}
+
+#loader-text
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:30px;
+}
+/** Purchase Entry**/
+
+
+/** purchase History**/
+#purchase-history-container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+	
+	display:none;
+}
+
+#purchase-history-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:20px;
+}
+
+#filter_container
+{
+	width:900px;
+	height:40px;
+	margin-top:50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.filter_fields
+{
+	height:100%;
+	float:left;
+	width:200px;
+	text-align:left;
+	font-size:13px;
+	margin-left:10px;
+}
+
+.filter-input
+{
+	height:100%;
+	width:100%;
+	color:grey;
+	font-size:18px;
+	margin-top:10px;
+	border:1px solid #72757b;
+	background-color:#cdcdcf;
+	
+}
+
+#purchase-data-table
+{
+	width:1082px;
+	margin-top:20px;
+	border:1px solid #72757b;
+	overflow:hidden;
+	border-bottom:0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+.purchase-data
+{
+	border-right:1px solid #72757b;
+	border-bottom:1px solid #72757b;
+	font-family: 'Montserrat', sans-serif;
+	float:left;
+	padding:5px;
+	font-size:14px;
+}
+
+.border-eat
+{
+	border-right:0px;
+}
+
+
+#view-bill-cover
+{
+	width:1233px;
+	height:140%;
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	display:none;
+}
+
+#view-bill
+{
+	width:830px;
+	background-color:white;
+	margin-top:124px;
+	padding-top:20px;
+	padding-bottom:10px;
+	overflow:hidden;	
+	z-index: 1000;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 0 15px #888888;
+    margin-left: 105px;
+}
+
+#view-bill-mfd-name
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+}
+
+#view-bill-info
+{
+	width:100%;
+	height:30px;
+	margin-top:40px;
+	padding-top:10px;
+}
+
+#view-bill-info2
+{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	padding-top:10px;
+}
+
+.view-bill-info
+{
+	width:50%;
+	height:100%;
+	float:left;
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+}
+
+#view-bill-details
+{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	overflow:hidden;
+}
+
+.view-bill-details
+{
+	width:100%;
+	height:50px;
+	border-bottom:1px solid black;
+	overflow:hidden;	
+}
+
+
+.view-bsno
+{
+	width:50px;
+	height:100%;
+	border-right:1px solid black;
+	float:left;
+	padding-top:5px;
+	font-family:'Montserrat', sans-serif;
+	font-size:11px;
+}
+
+#edit-bill-output
+{
+	padding-top:20px;
+	background-color:#cdcdcf;
+	width:70%;
+}
+
+
+#edit-bill-cover
+{
+	width:1233px;
+	height:140%;
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	padding-top:20px;
+	display:none;
+	padding-bottom:20px;
+}
+
+#edit-billing-info
+{
+	width:700px;
+	height:130px;
+	border:1px solid grey;
+	margin-top:20px;
+	padding:5px;
+}
+.edit-section-name
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	float:left;
+}
+
+.edit-fields
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	width:200px;
+	height:50px;
+	float:left;
+	margin-top:10px;
+	text-align:left;
+	margin-left:10px;
+}
+
+.edit-entry-fields
+{
+	width:100%;
+	height:30px;
+	margin-top:5px;
+	
+}
+
+#filter-btn-container
+{
+	width:200px;
+	height:60px;
+	margin-top:30px;
+}
+
+.filter-btn
+{
+	display:inline;
+	font-size:50px;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+#product-database-loader
+{
+	width:400px;
+	height:30px;
+	overflow:hidden;
+	margin-top:40px;
+}
+/** purchase History**/
+
+
+/** Stock**/
+#stock-Container
+{
+	width:1233px;
+	height:100%;
+	margin-left:110px;
+	padding-top:70px;
+	display:none;
+}
+
+
+#stock-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px;
+	margin-top:20px;
+}
+
+#stock_filter_container
+{
+	width:1050px;
+	height:40px;
+	margin-top:50px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left:57px;
+}
+
+.stock_filter_fields
+{
+	height:100%;
+	float:left;
+	width:200px;
+	text-align:left;
+	font-size:13px;
+	margin-left:10px;
+}
+
+.stock-filter-input
+{
+	height:100%;
+	width:100%;
+	color:grey;
+	font-size:18px;
+	margin-top:10px;
+	border:1px solid #72757b;
+	background-color:#cdcdcf;
+	
+}
+
+
+#stock-data-table
+{
+	width:3650px;
+	margin-top:20px;
+	border:1px solid #72757b;
+	overflow:hidden;
+	border-bottom:0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+.stock-data
+{
+	border-right:1px solid #72757b;
+	border-bottom:1px solid #72757b;
+	font-family: 'Montserrat', sans-serif;
+	float:left;
+	padding:5px;
+	font-size:10px;
+}
+
+.border-eat
+{
+	border-right:0px;
+}
+
+#filter2-btn-container
+{
+	width:200px;
+	height:60px;
+	margin-top:30px;
+}
+
+.stock-filter-btn
+{
+	display:inline;
+	font-size:50px;
+	cursor:pointer;
+	color:#2a3b4f;
+}
+
+#product-database-loader
+{
+	width:400px;
+	height:30px;
+	overflow:hidden;
+	margin-top:40px;
+}
+
+.back_btn
+{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:#2a3b4f;
+	text-align:center;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:10px;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+.back_btn:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+
+/**Stock**/
+
+/** Returned Stock Accept Starts**/
+.accept-container
+{
+	width:1233px;
+	overflow:hidden;
+	padding-top:70px;
+	margin-left:110px;
+	display:none;
+}
+
+.accept-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	color:black;
+	margin-top:50px;
+}
+
+.acceptpro-view
+{
+	width:1233px;
+	background-color:rgba(255,255,255,0.9);
+	position:absolute;
+	overflow:hidden;
+	padding-bottom:20px;
+	display:none;
+}
+
+#acceptpview-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	color:black;
+	margin-top:10px;
+}
+
+.accept_button
+{
+	margin-top:-3px;
+}
+
+.rhis-table
+{
+	width:300px;
+	border:1px solid black;
+	border-bottom:0px;
+	margin-top:20px;
+}
+
+.rhis-row
+{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid black;
+}
+
+.rhis-data
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	float:left;
+	border-right:1px solid black;
+	padding-top:5px;
+	height:25px;
+}
+
+
+.pro-view
+{
+	width:1233px;
+	background-color:rgba(255,255,255,0.9);
+	position:fixed;
+	overflow:hidden;
+	padding-bottom:20px;
+	display:none;
+}
+
+
+.return-table
+{
+	width:1100px;
+	overflow:hidden;
+	border:1px solid black;
+	border-bottom:0px;
+	margin-top:10px;
+}
+
+.return-row
+{
+	width:100%;
+	height:25px;
+	border-bottom:1px solid black;
+}
+
+.return-data
+{
+	height:20px;
+	border-right:1px solid black;
+	font-size:13px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:5px;
+	float:left;
+}
+
+.back_btn2
+{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:#2a3b4f;
+	text-align:center;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:10px;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+/** Returned Stock Accept Ends**/
+
+
+/** Accept history Starts**/
+.ahis-container
+{
+	width:1233px;
+	overflow:hidden;
+	margin-left:110px;
+	padding-top:70px;
+	display:none;
+}
+
+.ahis-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	color:black;
+	margin-top:50px;
+}
+
+#ahispview-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	color:black;
+	margin-top:30px;
+}
+
+/** Accept history Ends**/
+
+/** Worth**/
+.worth
+{
+	width:650px;
+	height:100px;
+}
+
+.worth-box
+{
+	width:178px;
+	height:100px;
+	float:left;
+	border:1px solid black;
+	margin-left:10px;
+	padding-top:5px;
+}
+
+.worth-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:11px;
+}
+
+
+.worth-price
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	margin-top:20px;
+}
+/** Worth Ends**/
+
+
+/** free stock Entry starts**/
+#fs-container
+{
+	width:1233px;
+	margin-left:110px;
+	overflow:hidden;
+	display:none;
+}
+
+#fs-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	color:black;
+	margin-top:30px;
+}
+
+#fs-products
+{
+	width:700px;
+	margin-top:10px;
+	padding:10px;
+}
+
+.fs-products
+{
+	width:700px;
+	border:1px solid black;
+	height:320px;
+	padding-bottom:10px;
+	margin-top:20px;
+}
+
+.fs-pnum
+{
+	width:200px;
+	height:40px;
+	border:1px solid black;
+	font-family:calibri;
+	padding-top:7px;
+	margin-top:-10px;
+	background-color:#cdcdcf;
+}
+
+.fs-inputbox
+{
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	margin-top:10px;
+	font-family:calibri;
+}
+
+.fs-field
+{
+	float:left;
+	height:30px;
+	width:200px;
+	margin-top:10px;
+}
+
+#fs-details
+{
+	width:700px;
+	height:150px;
+	border:1px solid black;
+	margin-top:10px;
+}
+
+.fs-add-pro
+{
+	width:50px;
+	height:40px;
+	background-color:#2a3b4f;
+	border-radius:100%;
+	color:white;
+	font-size:25px;
+	padding-top:10px;
+	text-align:center;
+	margin-top:5px;
+	box-shadow:4px 4px 4px grey;
+	cursor:pointer;
+}
+
+
+.fs-add-pro:hover
+{
+	width:50px;
+	height:40px;
+	background-color:#2a3b4f;
+	border-radius:100%;
+	color:white;
+	font-size:25px;
+	padding-top:10px;
+	text-align:center;
+	margin-top:5px;
+	cursor:pointer;
+	box-shadow:0px 0px 0px grey;
+}
+
+.fs-btn
+{
+	width:200px;
+	height:30px;
+	background-color:#2a3b4f;
+	color:white;
+	padding-top:10px;
+	box-shadow:2px 2px 2px grey;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+.fs-btn:hover
+{
+	width:200px;
+	height:30px;
+	background-color:#2a3b4f;
+	color:white;
+	padding-top:10px;
+	box-shadow:0px 0px 0px grey;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+#fsc-container
+{
+	width:700px;
+	background-color:rgba(255,255,255,0.8);
+	position:absolute;
+	margin-left:265px;
+	margin-top:20px;
+	padding-top:20px;
+	overflow:hidden;
+	display:none;
+}
+
+#fsc-detailbox
+{
+	width:650px;
+	border:1px solid black;
+	height:50px;
+	padding:10px;
+}
+
+.detail
+{
+	width:200px;
+	height:40px;
+	float:left;
+}
+
+.detailname
+{
+	width:80px;
+	font-family:calibri;
+	float:left;
+}
+
+.detailvalue
+{
+	width:120px;
+	font-family:calibri;
+	float:left;
+}
+
+
+#fsc-table
+{
+	width:500px;
+	overflow:hidden;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	margin-top:10px;
+}
+
+.fsc-row
+{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid black;
+}
+
+.fsc-col
+{
+	float:left;
+	font-family:calibri;
+	text-align:center;
+	padding-top:5px;
+	height:25px;
+	border-right:1px solid black;
+}
+
+.fsc-control
+{
+	width:220px;
+	height:30px;
+	margin-top:20px;
+}
+
+.fsc-button
+{
+	width:100px;
+	height:25px;
+	color:white;
+	font-family:calibri;
+	padding-top:5px;
+	text-align:center;
+	cursor:pointer;
+	box-shadow:2px 2px 2px grey;
+	background-color:#2a3b4f;
+	margin-left:10px;
+	float:left;
+}
+
+
+.fsc-button:hover
+{
+	width:100px;
+	height:25px;
+	color:white;
+	font-family:calibri;
+	padding-top:5px;
+	text-align:center;
+	cursor:pointer;
+	box-shadow:0px 0px 0px grey;
+	background-color:#2a3b4f;
+	float:left;
+}
+
+.fs-back
+{
+	width:100px;
+	background-color:#2a3b4f;
+	height:25px;
+	color:white;
+	font-family:calibri;
+	text-align:center;
+	padding-top:5px;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.fs-back:hover
+{
+	box-shadow:0px 0px 0px grey;
+}
+
+
+/** Free stock entry Ends**/
+

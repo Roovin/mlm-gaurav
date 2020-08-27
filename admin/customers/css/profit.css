@@ -1,0 +1,172 @@
+#profit-container
+{
+	width:1233px;
+	height:500px;
+	margin-left:120px;
+}
+
+#profit-heading
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	padding-top:100px;
+	text-align:center;
+}
+
+.profit-fields
+{
+	width:200px;
+	height:40px;
+	margin-top:30px;
+}
+
+#demographics
+{
+	width:900px;
+	height:200px;
+	border:1px solid black;
+	margin-top:20px;
+}
+
+.inner
+{
+	width:299px;
+	float:left;
+	height:150px;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	margin-top:10px;
+}
+
+#head
+{
+	font-family:calibri;
+	font-size:25px;
+	font-family:'Montserrat', sans-serif;
+}
+
+.pl-section
+{
+	width:900px;
+	height:350px;
+	margin-left:120px;
+	padding-bottom:20px;
+}	
+
+.pl-boxes
+{
+	width:450px;
+	height:100%;
+	float:left;
+}
+
+
+.pl-head
+{
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	margin-top:10px;
+}
+
+#profit-display
+{
+	font-family:'Montserrat', sans-serif;
+	color:green;
+	font-size:22px;
+	margin-top:30px;
+}
+
+.w-box
+{
+	width:300px;
+	height:25px;
+	padding-top:5px;
+	margin-top:15px;
+}
+
+.w-text
+{
+	font-family:Montserrat, sans-serif;
+	font-size:13px;
+	width:150px;
+	float:left;
+}
+
+.pl-fields
+{
+	width:250px;
+	height:30px;
+	margin-top:10px;
+}
+
+#req-btn
+{
+	width:200px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	background-color:#2a3b4f;
+	text-align:center;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	margin-top:10px;
+	font-family:Montserrat, sans-serif;
+}
+
+#req-btn:hover
+{
+box-shadow:0px 0px 0px grey;	
+}
+
+#ftrans
+{
+	background-color:#DEDEDE;
+	box-shadow:5px 5px 5px grey;
+}
+
+.fotp-box
+{
+	width:450px;
+	height:350px;
+	background-color:rgba(255,255,255,0.95);
+	position:absolute;
+	display:none;
+}
+
+.fotp-head
+{
+	font-family:Montserrat, sans-serif;
+	font-size:15px;
+	margin-top:50px;
+}
+
+#otp-btn
+{
+	width:200px;
+	height:25px;
+	padding-top:5px;
+	color:white;
+	background-color:#2a3b4f;
+	text-align:center;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+	margin-top:10px;
+	font-family:Montserrat, sans-serif;
+}
+
+#otp-btn:hover
+{
+box-shadow:0px 0px 0px grey;	
+}
+
+#check
+{
+	width:250px;
+	height:200px;
+}
+
+.ctext
+{
+	font-family:Montserrat, sans-serif;
+	font-size:14px;
+}
